@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="promedio.css">
+    <title>PROMEDIO</title>
+</head>
+<body>
+    <header>
+        <h1>PROMEDIO</h1>
+    </header>
+    <main>
+        <form action="#">
+            <label for="lista">
+                Deme los valores de su lista
+            </label>
+            <input type="number" id="lista" placeholder="numeros">
+            <button type="button" onclick="agregar()" >Agragar elemento a la lista</button>
+            <p id="ahiVa"></p>
+            <p id="elementos"></p>
+            <p id="answer"></p>
+            <button type="button" onclick="calcular()">Calcular promedio</button>
+            <button><a href="">VOLVER A CALCULAR</a></button>
+
+
+        </form>
+    </main>
+    <script src="promedio.js"></script>
+</body>
+</html>
