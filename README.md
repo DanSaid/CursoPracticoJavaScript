@@ -1,5 +1,7 @@
 # curso-practico-javascript
 
+# EJERCICIOS CON JAVASCRIPT
+
 ...
 
 # TALLER #1: FIGURAS GEOMETRICAS
